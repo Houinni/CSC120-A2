@@ -5,7 +5,7 @@ from computer import Computer
 from oo_resale_shop import ResaleShop
 
 class main:
-    # First, let's make a computer
+    # First, let's make some computer
     new = Computer(
         "Mac Pro (Late 2013)",
         "3.5 GHc 6-Core Intel Xeon E5",
