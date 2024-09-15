@@ -1,3 +1,13 @@
 Use this file to record your reflection on this assignment. 
 
 What worked, what didn't, what advice would you give someone taking this course in the future?
+
+When working on programming projects, don't rush to start coding. Take your time, pause for a moment, and try to understand the connections between different objects. When you start writing code, always check whether it works before moving on to the next function! I cannot stress the importance of this enough.
+
+Initially, I tried to write as much code as possible, attempting to establish the "structure" first without testing it even once. Then, during Ab's office hours, I disappointedly found that I couldn't explain how my code was supposed to work or the principles behind it. What frustrated me most was my inability to convey my thoughts clearly and understandably. All the terms I was familiar with in Chinese, along with new terms learned in English, became jumbled together like a bowl of soup. Hopefully, this issue will gradually fade as I refresh my memory.
+
+So, I started over from scratch. This time, I first studied the procedural code, listed all required information and methods, then identified two main objects with their attributes. After that, I divided those methods into different classes. Once I completed these steps, I began writing code. This time, I started by building something small and made sure to test it immediately. Although I encountered some syntax errors that stumped me for a while, once I resolved them, subsequent tasks became much easier.
+
+For me, the trickiest part was creating the constructor for the ResaleShop object because dictionaries are a new concept for me. They are similar to lists but not the same, which caused confusion when writing syntax. That being said, after repeatedly reading sample code, I gained a deeper understanding of what dict[int, dict] means. Though I still find it challenging to determine which data structure to use in different circumstances, it's nice to have an idea of what could be improved next. That is the most valuable takeaway I got from this assignment.
+
+Currently, it seems like all of my written functions are working. However, when printing the inventory, I'm still confused about the syntax. Besides, I'm not sure I understand the meaning of the word "refurbish" in this context. When changing the operating system, does the price of the computer change as well?

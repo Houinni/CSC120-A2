@@ -52,7 +52,7 @@ def sell(item_id: int):
         print("Item", item_id, "not found. Please select another item to sell.")
 
 """
-prints all the items in the inventory (if it isn't empty), prints error otherwise
+prints all the items in the inventory (if it isn't empty), prints error otherwis
 """
 def print_inventory():
     # If the inventory is not empty
