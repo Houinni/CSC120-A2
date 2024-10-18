@@ -6,12 +6,22 @@ from oo_resale_shop import ResaleShop
 
 class main:
     # First, let's make some computer
+    desc =  "Mac Pro (Late 2013)"
+    Processor = "3.5 GHc 6-Core Intel Xeon E5"
+    hdd = 1024
+    memory =64
+    os = "macOS Big Sur"
+    year = 2013
+    price = 1500
+
+    computer=Computer(desc,Processor,hdd,memory,os,year,price)
+
     new = Computer(
         "Mac Pro (Late 2013)",
         "3.5 GHc 6-Core Intel Xeon E5",
         1024, 64,
         "macOS Big Sur", 2013, 1500)
-   
+    
     new1 = Computer(
         "Mac Pro (Late 2012)",
         "3.5 GHc 6-Core Intel Xeon E5",
@@ -62,6 +72,7 @@ class main:
     # Now, let's sell it!
     print("Selling Item ID:", 1)
     resale_shop.sell(1)
+    print("Done.\n")
     
     # Make sure it worked by checking inventory
     print("Checking inventory...")

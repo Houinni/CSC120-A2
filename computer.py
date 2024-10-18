@@ -24,5 +24,7 @@ class Computer:
         self.operating_system = operating_system
         self.year_made = year_made
         self.price = price
-        
+    
+    def __str__(self) -> str:
+        return
     # What methods will you need?
